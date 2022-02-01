@@ -44,7 +44,7 @@ function App() {
 
       <h1>Blogposztjaim</h1>
 
-
+      {/* {sampleData[0].title} */}
       {blogposts.map((blogpost) => (
         <article>
           <h2>{blogpost.title}</h2>
